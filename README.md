@@ -11,7 +11,6 @@
 <h1>Thinking with Visual Primitives</h1>
 
 </div>
-
 <div align="center">
 
   <a href="https://www.deepseek.com/" target="_blank">
@@ -21,11 +20,7 @@
   <a href="https://huggingface.co/deepseek-ai" target="_blank">
     <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white" />
   </a>
-
 </div>
-
-
-
 <div align="center">
 
   <a href="LICENSE-CODE">
@@ -36,20 +31,15 @@
   </a>
 </div>
 
-
 <p align="center">
   <a href="#2-license"><b>📜 License</b></a> |
   <a href="#3-citation"><b>📖 Citation</b></a> <br>
   <!-- 📄 Paper Link (<a href=""><b>Thinking with Visual Primitives</b></a> | -->
-
 </p>
-
 
 ## News
 
 **2026.04.30**: We have released the [technical report](./Thinking_with_Visual_Primitives.pdf) detailing our approach. In the near future, we plan to make the in-house benchmarks and a subset of our cold-start data publicly available. The model weights will be integrated into our foundation model and released in the future.
-
-
 
 ## 1. Introduction
 While recent Multimodal Large Language Models (MLLMs) have made strides in bridging the *"Perception Gap"* (e.g., through high-resolution cropping or thinking with images), they still struggle with complex structural reasoning. We identify this bottleneck as the **Reference Gap**: natural language is simply too ambiguous to precisely point to dense spatial layouts, often leading to logical collapse and hallucinations in thinking process.
